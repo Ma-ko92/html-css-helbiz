@@ -8,11 +8,15 @@
 .menu li a{
     text-decoration: none;
 }
+
 /* HEADER */
 .wrapper{
     max-width:900px;
     margin: auto;
-    padding: 25px;
+    padding: 25px 0px;
+}
+header img{
+    width:50%;
 }
 /* Nav */
 header nav{
@@ -22,7 +26,13 @@ nav .menu li a{
     color: black;
     text-transform: uppercase;
     font-size: 13px;
-    padding-right: 20px;
+    padding-right: 14px;
 }
-
+.menu.lang li{
+    border-right: 1px solid black;
+    padding-left: 15px;
+}
+.menu.lang li:last-child{
+    border: none;
+}
 /* HEADER END*/
