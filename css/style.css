@@ -1,5 +1,28 @@
 /* COMMON */
+.menu{
+    list-style-type: none;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+}
+/* HEADER */
 .wrapper{
     max-width:900px;
     margin: auto;
+    padding: 25px;
 }
+/* Nav */
+header nav{
+    text-align: right;
+}
+nav .menu li a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-right: 20px;
+}
+
+/* HEADER END*/
