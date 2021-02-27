@@ -38,12 +38,16 @@ nav .menu li a{
 .menu.lang li:last-child{
     border: none;
 }
+.container .burger-menu{
+    font-size: 25px;
+    padding-right: 25px;
+}
 
 /* Jumbotron */
 .jumbotron{
     background-image: url(../img/hero-bg.jpg);
     height:550px;
-    background-position: 32%;
+    background-position: 25%;
     position: relative;
 }
 .teaser{
@@ -62,7 +66,51 @@ nav .menu li a{
     font-size: 13px;
     margin: 13px 0px;
 }
-.badge img{
-   width: 25%;
-}
 /* HEADER END*/
+
+/* MEDIA QUERY */
+/* Header */
+@media all and (min-width: 768px)
+and (max-width: 991px) {
+    header .wrapper img{
+        padding-left: 25px;
+    }
+}    
+@media all and (max-width: 767px) {
+    header .wrapper img{
+        padding-left: 25px;
+    }
+}    
+/* Header End */
+
+/* MAIN */
+/* Section top */
+.space{
+    padding: 40px 0px;
+}
+.products{
+    margin: 40px 0px;
+    text-align: center;
+    background-color: #fafafa;
+    margin: 20px;
+    padding: 40px 0px;
+}
+.products h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.products p{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+.products img{
+    height:400px;
+ }
+ .products a{
+     text-decoration: none;
+     color: blue;
+     margin-bottom: 20px;
+ }
+
+/* MAIN END*/
