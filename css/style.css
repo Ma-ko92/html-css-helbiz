@@ -2,6 +2,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+img{
+    max-width: 100%;
+}
 .menu{
     list-style-type: none;
 }
@@ -15,13 +18,12 @@ body{
 /* HEADER */
 .wrapper{
     max-width:900px;
-    margin: auto;
+    margin: 0 auto;
+}
+/* Nav */
+.top-nav{
     padding: 25px 0px;
 }
-/* header img{
-    width:50%;
-} */
-/* Nav */
 header nav{
     text-align: right;
 }
@@ -68,21 +70,6 @@ nav .menu li a{
 }
 /* HEADER END*/
 
-/* MEDIA QUERY */
-/* Header */
-@media all and (min-width: 768px)
-and (max-width: 991px) {
-    header .wrapper img{
-        padding-left: 25px;
-    }
-}    
-@media all and (max-width: 767px) {
-    header .wrapper img{
-        padding-left: 25px;
-    }
-}    
-/* Header End */
-
 /* MAIN */
 /* Section top */
 .space{
@@ -105,12 +92,66 @@ and (max-width: 991px) {
     margin-bottom: 20px;
  }
 .products img{
-    height:400px;
+    width: 100%;
  }
  .products a{
-     text-decoration: none;
-     color: blue;
-     margin-bottom: 20px;
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 20px;
  }
+ /* Section top middle */
+ .phone-section{
+    height: 350px;
+    background-image: url("../img/HelbizBanner.jpg");
+    background-size: cover;
+    background-position: center;
+ }
+     
+ .phone-section img{
+    height: 550px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 100px;
+ }
+ .info-col_left{
+    font-size: 25px;
+    padding: 20% 30%;
+ }
+ .info-col_right{
+    padding: 22% 0% 0% 45%;
+ }
+.info-col_right h5{
+    font-size: 14px;
+}
+.info-col_right p{
+    font-size: 12px;
+    line-height: 25px;
+}
 
+.test{
+    background-color: blue;
+    height: 200px;
+}
 /* MAIN END*/
+
+/* MEDIA QUERY */
+/* Header */
+@media all and (min-width: 768px)
+and (max-width: 991px) {
+    header .wrapper img{
+        padding-left: 25px;
+    }
+    .products img{
+        width: 50%;
+    }
+}    
+@media all and (max-width: 767px) {
+    header .wrapper img{
+        padding-left: 25px;
+    }
+    .info-col_left{
+        padding: 0;
+    }
+}    
+/* Header End */
