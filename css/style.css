@@ -105,6 +105,7 @@ nav .menu li a{
     background-image: url("../img/HelbizBanner.jpg");
     background-size: cover;
     background-position: center;
+    margin-bottom: 100px;
  }
      
  .phone-section img{
@@ -114,24 +115,37 @@ nav .menu li a{
     position: relative;
     top: 100px;
  }
- .info-col_left{
-    font-size: 25px;
-    padding: 20% 30%;
+ 
+ .col_left{
+    padding-left: 20%;
+    padding-right: 40%;
  }
- .info-col_right{
-    padding: 22% 0% 0% 45%;
+ .col_right{
+    padding-left:40%;
  }
-.info-col_right h5{
-    font-size: 14px;
+.info{
+    text-align: left;
+    padding: 50px 0px;
+
 }
-.info-col_right p{
-    font-size: 12px;
-    line-height: 25px;
+.info h3{
+    font-size: 30px;
 }
 
-.test{
-    background-color: blue;
-    height: 200px;
+/* Section Top Bottom */
+.banner{
+    background-image: url("../img/ScooterHelbiz-2400.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.inner{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+.inner h2{
+    font-size: 40px;
 }
 /* MAIN END*/
 
@@ -152,6 +166,12 @@ and (max-width: 991px) {
     }
     .info-col_left{
         padding: 0;
+    }
+    .col_left{
+        margin-top:20%;
+    }
+    .col_right{
+        padding-left: 20%;
     }
 }    
 /* Header End */
