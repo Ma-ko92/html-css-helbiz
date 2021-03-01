@@ -137,15 +137,24 @@ nav .menu li a{
     background-image: url("../img/ScooterHelbiz-2400.jpg");
     background-size:contain;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
 }
 .inner{
     text-align: center;
     color: white;
-    padding-top: 70px;
+    margin: 10% 10% 15% 63%;
+    float: right;
 }
 .inner h2{
     font-size: 40px;
+    margin-bottom: 20px;
+}
+.inner p{
+    margin-bottom: 20px;
+}
+.inner a{
+    color: white;
+    text-decoration: none;
 }
 /* MAIN END*/
 
@@ -172,6 +181,11 @@ and (max-width: 991px) {
     }
     .col_right{
         padding-left: 20%;
+    }
+    .inner{
+        float: none;
+        padding: 10% 0%;
+        margin: 0px 0px;
     }
 }    
 /* Header End */
